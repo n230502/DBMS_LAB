@@ -2,7 +2,7 @@ CREATE DATABASE GRAMPANCHAYAT_CERT_REQUEST;
 USE  GRAMPANCHAYAT_CERT_REQUEST;
 CREATE TABLE Citizen(citzen_id int  PRIMARY KEY , full_name varchar(100) not null , date_of_birth DATE NOT NULL , gender varchar(10) Not null ,mobile_number varchar(15) not null unique,  occupation varchar(50) ,village_name varchar(50) not null ,is_active boolean not null );
 SELECT * FROM Citizen;
-INSERT INTO Citizen values(101,'Ravi Kumar','1995-06-15',"Male","987650001","Farmer","Ramapuram",TRUE);
+INSERT INTO Citizen values(101,'Ravi Kumar','1995-06-15',"Male","987650001","Farmer","Ramapuram",TRUE,);
 INSERT INTO Citizen values(102,'Lakshmi Devi','1988-11-22','Female',"9897650002","Tailor","Ramapuram",True);
 INSERT INTO Citizen values(103 , "Suresh Babu",'1992-03-10','Male','987650003',"Shopkeeper","Seethampeta",True);
 INSERT INTO Citizen values(104,"Anjali Rao",'2000-08-05','Female','987650004',"Student","Ramapuram",True);
